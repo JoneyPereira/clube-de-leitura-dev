@@ -16,3 +16,18 @@ Notas sobre Windows/Git Bash
 
 Sugestões
 - Para executar sempre dentro da pasta `app`, mova os arquivos para `app/` ou deixe como está — o `build` detecta automaticamente.
+
+Notas do livro
+- Capítulo I - ORIENTAÇÃO A OBJETOS,  PARA QUE TE QUERO?
+> "sabendo o que são classes, a usar o mecanismo de herança e viram
+exemplos de Cachorro, Gato e Papagaio para entender
+polimorfismo"
+
+> "procedural disfarçado de
+orientado a objeto"
+
+> "pensar no projeto de
+classes, em como elas se encaixam e como elas serão estendidas é o
+que importa."
+
+> "aprender e a escrever softwares ainda melhores."
