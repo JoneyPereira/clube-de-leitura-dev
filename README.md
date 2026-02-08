@@ -31,3 +31,23 @@ classes, em como elas se encaixam e como elas serão estendidas é o
 que importa."
 
 > "aprender e a escrever softwares ainda melhores."
+
+- Capítulo II - A COESÃO E O TAL DO SRP
+
+[Decorator](https://refactoring.guru/pt-br/design-patterns/decorator)
+
+[Decorator em PHP](https://refactoring.guru/pt-br/design-patterns/decorator/php/example)
+
+> "Design Patterns com Java: Projeto
+orientado a objetos guiado por padrões"
+
+> "ARQUITETURA HEXAGONAL"
+
+> "Classes coesas são mais fáceis de serem mantidas, reutilizadas e
+tendem a ter menos bugs. Pense nisso."
+
+> "Coesão é fundamental, mas acoplamento também. Essa é uma
+balança interessante. Falaremos mais sobre o assunto no próximo
+capítulo."
+
+
