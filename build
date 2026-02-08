@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+# Resolve host working directory for Docker mounts on Windows (Git Bash / MSYS)
+HOST_PWD="$PWD"
+case "$(uname -s)" in
+  MINGW*|MSYS*|CYGWIN*)
+    if command -v pwd >/dev/null 2>&1; then
+      # Use pwd -W to get Windows-style path (e.g. D:\path), then convert backslashes
+      HOST_PWD="$(pwd -W 2>/dev/null || echo "$PWD")"
+      HOST_PWD="${HOST_PWD//\\//}"
+      # If HOST_PWD is like C:/path convert to /c/path for Docker on MSYS
+      if echo "$HOST_PWD" | grep -qE '^[A-Za-z]:/'; then
+        drive="${HOST_PWD:0:1}"
+        rest="${HOST_PWD:2}"
+        drive_lc="$(echo "$drive" | tr 'A-Z' 'a-z')"
+        HOST_PWD="/${drive_lc}${rest}"
+      fi
+    fi
+    ;;
+esac
+
+# On Git Bash / MSYS, disable automatic path conversion so Docker gets exact paths
+case "$(uname -s)" in
+  MINGW*|MSYS*|CYGWIN*)
+    export MSYS_NO_PATHCONV=1
+    export MSYS2_ARG_CONV_EXCL='*'
+    ;;
+esac
+
+# If repository has an `app` subdirectory, use it as container workdir
+if [ -d "$HOST_PWD/app" ]; then
+  WORKDIR="/app/app"
+else
+  WORKDIR="/app"
+fi
+
+docker run --rm -i \
+	-u $(id -u):$(id -g) \
+	--mount type=bind,source="$HOST_PWD",target=/app \
+	--workdir "$WORKDIR" \
+	-p 80:80 \
+	composer:2.4.2 "$@"
