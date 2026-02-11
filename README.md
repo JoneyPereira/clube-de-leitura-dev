@@ -50,4 +50,6 @@ tendem a ter menos bugs. Pense nisso."
 balança interessante. Falaremos mais sobre o assunto no próximo
 capítulo."
 
+[Design Patterns in PHP](https://github.com/gabrielanhaia/php-design-patterns)
+
 
