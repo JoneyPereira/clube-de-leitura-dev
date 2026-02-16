@@ -52,4 +52,30 @@ capítulo."
 
 [Design Patterns in PHP](https://github.com/gabrielanhaia/php-design-patterns)
 
+- Capítulo III - ACOPLAMENTO E O TAL DO DIP
 
+> "tenha classes que são muito coesas e pouco acopladas"
+
+> "problema do acoplamento é que uma mudança em qualquer uma das classes pode impactar em mudanças na classe principal"
+
+> "a partir do momento em que uma classe possui muitas dependências, todas elas podem propagar problemas para a classe principal."
+
+> "modelaremos nossos sistemas fugindo dos acoplamentos perigosos"
+
+> "dependência é estável"
+
+> "acoplar-se a classes, interfaces, módulos, que sejam estáveis, que tendam a mudar muito pouco"
+
+> "interfaces possuem um papel muito importante em sistemas orientados a objetos"
+
+> "padrões de projeto ajudam você a desacoplar seus projetos de classe"
+
+> "Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações"
+
+> "Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações"
+
+> "Princípio de Inversão de Dependência"
+
+> "solução é pensar não só no acoplamento, mas também em divisão de responsabilidades"
+
+> "acoplamento lógico pode nos indicar um mau projeto de classes, ou mesmo código que não está bem encapsulado"
