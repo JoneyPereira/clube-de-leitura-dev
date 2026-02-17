@@ -54,7 +54,7 @@ capítulo."
 
 [Resumo do capítulo 1 e 2](app\capitulo1-2\resumo_capitulos_1_e_2_oo_e_srp.md)
 
-[Codigos de exemplos](app\capitulo1-2\index.php)
+[Exemplos de código](app\capitulo1-2\index.php)
 
 - Capítulo III - ACOPLAMENTO E O TAL DO DIP
 
@@ -86,4 +86,4 @@ capítulo."
 
 [Resumo do capítulo 3](app\capitulo3\resumo_capitulo3-dip.md)
 
-[Codigos de exemplos](app\capitulo3\exemplos_em_php_capitulo_3_acoplamento_e_dip.md)
+[Exemplos de código](app\capitulo3\exemplos_em_php_capitulo_3_acoplamento_e_dip.md)
