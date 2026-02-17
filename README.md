@@ -52,6 +52,10 @@ capítulo."
 
 [Design Patterns in PHP](https://github.com/gabrielanhaia/php-design-patterns)
 
+[Resumo do capítulo 1 e 2](app\capitulo1-2\resumo_capitulos_1_e_2_oo_e_srp.md)
+
+[Exemplos de código](app\capitulo1-2\index.php)
+
 - Capítulo III - ACOPLAMENTO E O TAL DO DIP
 
 > "tenha classes que são muito coesas e pouco acopladas"
@@ -79,3 +83,7 @@ capítulo."
 > "solução é pensar não só no acoplamento, mas também em divisão de responsabilidades"
 
 > "acoplamento lógico pode nos indicar um mau projeto de classes, ou mesmo código que não está bem encapsulado"
+
+[Resumo do capítulo 3](app\capitulo3\resumo_capitulo3-dip.md)
+
+[Exemplos de código](app\capitulo3\exemplos_em_php_capitulo_3_acoplamento_e_dip.md)
