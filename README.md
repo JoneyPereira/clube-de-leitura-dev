@@ -87,3 +87,5 @@ capítulo."
 [Resumo do capítulo 3](app/capitulo3/resumo_capitulo3-dip.md)
 
 [Exemplos de código](app/capitulo3/exemplos_em_php_capitulo_3_acoplamento_e_dip.md)
+
+[Um pouco mais sobre DIP](app/capitulo3/dip.md)
