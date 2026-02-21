@@ -89,3 +89,27 @@ capítulo."
 [Exemplos de código](app/capitulo3/exemplos_em_php_capitulo_3_acoplamento_e_dip.md)
 
 [Um pouco mais sobre DIP](app/capitulo3/dip.md)
+
+- Capítulo IV - CLASSES ABERTAS E O TAL DO OCP
+
+> "nosso código deve estar sempre pronto para evoluir"
+
+> "a discussão o tempo inteiro é sobre como balancear entre acoplamento e coesão. Buscar esse equilíbrio é fundamental!"
+
+> "Precisamos fazer com que a criação de novas regras seja mais simples, e que essa mudança propague automaticamente por todo o sistema."
+
+> "abertas para extensão, mas fechadas para modificação"
+
+> "solução é deixar de instanciar as implementações concretas dentro dessa classe, e passar a recebê-las pelo construtor"
+
+> "Pensar em abstrações nos ajuda a resolver o problema do acoplamento e, de quebra, ainda nos ajuda a ter códigos facilmente extensíveis."
+
+> "se está difícil de testar, é porque seu código pode ser melhorado"
+
+> "sistemas OO evoluem por meio de novos códigos, e não de alterações em códigos já existentes"
+
+[Resumo do capítulo 4](app/capitulo4/resumo_capitulo4-ocp.md)
+
+[Exemplos de código](app/capitulo4/exemplos_em_php_capitulo_4_ocp.md)
+
+[Um pouco mais sobre OCP](app/capitulo4/ocp_arquitetura_hexagonal_e_clean_architecture.md)
