@@ -113,3 +113,45 @@ capítulo."
 [Exemplos de código](app/capitulo4/exemplos_em_php_capitulo_4_ocp.md)
 
 [Um pouco mais sobre OCP](app/capitulo4/ocp_arquitetura_hexagonal_e_clean_architecture.md)
+
+- Capítulo V - O ENCAPSULAMENTO E A PROPAGAÇÃO DE MUDANÇAS
+
+> "Falta ainda um grande pilar, que é encapsulamento"
+
+> "Encapsulamento é o nome que damos à ideia de a classe esconder os detalhes de implementação, ou seja, como o método faz o trabalho dele."
+
+> "dois ganhos: facilidade para alterar a implementação e termos a regra de negócio espalhada por lugares diferentes"
+
+> "sempre que a regra de negócio mudar, essa mudança deverá ser propagada em muitos lugares diferentes"
+
+> "Uma classe (ou método) bem encapsulada é aquela que esconde bem a maneira como faz as coisas"
+
+> "intimidade inapropriada"
+
+> "que entendem mais do que deveriam sobre o comportamento de uma outra classe"
+
+> "Tell, Don’t Ask"
+
+> "devemos sempre dizer ao objeto o que ele tem de fazer, e não primeiro perguntar algo a ele, para depois decidir"
+
+> "No mundo OO, devemos o tempo todo dar ordens aos objetos."
+
+> "programar OO é não pensar só na implementação daquela classe, mas também nas classes clientes, que a consumirão"
+
+> "Lei de Demeter"
+
+> "sugere que evitemos o uso de invocações em cadeia"
+
+> "lembre-se de não criar getters e setters: sem pensar. Eles precisam de um motivo para existir"
+
+> "Como que eu sei que as minhas classes e métodos estão encapsulados? Basta olhar para ela e tentar responder as duas perguntas: O quê? E como? O "o quê?" você tem de ser apaz de responder, porque o nome do método tem de lhe dizer isso. O "como?" você não tem de conseguir responder."
+
+> "pensar em um projeto de classe é desafiador"
+
+> "encapsulamento. Esconda os detalhes da implementação, e diminua pontos de mudança"
+
+> "Seu sistema deve ser idêntico: se você tocar em uma classe, você precisa ver facilmente as outras classes que deverão ser alteradas."
+
+[Resumo do capítulo 5](app/capitulo5/capitulo_v_resumo.md)
+
+[Over Encapsulation](app/capitulo5/over_encapsulation.md)
