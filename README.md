@@ -321,3 +321,49 @@ capítulo."
 [Resumo do capítulo 9](app/capitulo9/capitulo_9_code_smells.md)
 
 [Guia visual de Design Smells](app/capitulo9/guia-visual-de-design-smells-em_PHP.md)
+
+- Capítulo X - MÉTRICAS DE CÓDIGO
+
+> "A grande questão é: como fazer para detectar possíveis problemas em nosso design antes que eles se tornem problemas de verdade?"
+
+> "É impossível dizer, com 100% de certeza, se uma classe tem problemas de coesão ou de acoplamento."
+
+> "Mas por que não criarmos heurísticas? Elas poderiam nos apontar para um pequeno conjunto, dentre as milhares de classes do sistema, que possivelmente contém problemas."
+
+> "métricas de código podem nos ser bastante úteis para identificar possíveis trechos problemáticos"
+
+> "complexidade ciclomática - Número de McCabe"
+
+> "Tamanho é algo que pode nos dar um bom feedback"
+
+> "LCOM ( Lack of Cohesion of Methods)"
+
+> "conta o número desses diferentes conjuntos de responsabilidades dentro de uma classe"
+
+> "acoplamento eferente e acoplamento aferente"
+
+> "Dar bons nomes às variáveis, métodos e classes é importante."
+
+> "métricas de código"
+
+> "analisar esses dados e com isso descobrir quais são as classes que merecem atenção"
+
+> "O objetivo é termos algo que nos ajude a encontrar esse problema de maneira rápida e barata."
+
+> "Sonar"
+
+[Resumo do capítulo 10](app/capitulo10/resumo_cap10.md)
+
+- Capítulo XI - CONCLUSÃO
+
+> "você não criará um bom projeto de classes de primeira; valide, aprenda e melhore o seu projeto de classes atual o tempo todo"
+
+> Agile Principles, Patterns and Pratices, do Robert Martin."
+
+> "Growing Object-Oriented Software, Guided by Tests, do Steve Freeman e Nat Pryce."
+
+> "Design Patterns, da Gang of Four."
+
+> "Refactoring to Patterns, do Joshua Kerievsky."
+
+[Resumo do capítulo 11](app\capitulo11\resumo_cap11.md)
